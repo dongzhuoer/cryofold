@@ -1,19 +1,13 @@
-# CryoFold
+# CryoNet.Fold
 
-   <img src="https://img.shields.io/badge/CryoFold-v1.0.0-green">
-   <img src="https://img.shields.io/badge/platform-Linux">
-   <img src="https://img.shields.io/badge/Language-python3-green">
-   <img src="https://img.shields.io/badge/licence-MIT-green">
-
-Protein complex structure determination by structure prediction with cryo-EM density map constraints.  
+<img src="https://img.shields.io/badge/CryoFold-v1.0.0-green"> <img src="https://img.shields.io/badge/platform-Linux">
+<img src="https://img.shields.io/badge/Language-python3-green"> <img src="https://img.shields.io/badge/licence-MIT-green">
 
 <p align="center">
   <img src="misc/framework.png" alt="CryoFold framework" width="70%">
 </p>
 
-## Introduction
-
-<summary>Protein complex structure determination by structure prediction with cryo-EM density map constraints. </summary>
+**Protein complex structure determination by structure prediction with cryo-EM density map constraints**
 
 Cryo-electron microscopy (cryo-EM) has become a prominent approach for protein structure determination, especially for large protein complexes. However, obtaining high-resolution cryo-EM density maps remains challenging, particularly for the burgeoning discipline of cryo-electron tomography (cryo-ET). Here, we introduce CryoFold, a deep learning method for protein complex structure determination from cryo-EM density maps based on folding the input protein sequences within the map through multimodal data fusion. On benchmark datasets comprising hundreds of protein complexes with both intermediate- and low-resolution maps (i.e., 4~6 Å), CryoFold generated highly accurate atomic models, vastly outperforming the sequence-alone prediction tool AlphaFold-Multimer. CryoFold also performed well when using high-resolution maps (<4 Å), and notably can construct accurate models from in situ cryo-ET data of very large complexes consisting of hundreds of protein chains and low-resolution maps of 9.9 Å resolution. Finally, we used CryoFold to build models for the EMDB density maps lacking a PDB model, and established the CryoFoldDB database currently comprising 506 new models of protein complexes that are of higher average quality than deposited structures in PDB. Thus, CryoFold is a powerfully enabling technology for expanding the attainable scope of cryo-EM protein structure determination, especially for large protein complexes. 
 
