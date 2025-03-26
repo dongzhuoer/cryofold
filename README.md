@@ -1,14 +1,11 @@
 # CryoFold
-<a >
+
    <img src="https://img.shields.io/badge/CryoFold-v1.0.0-green">
    <img src="https://img.shields.io/badge/platform-Linux">
    <img src="https://img.shields.io/badge/Language-python3-green">
    <img src="https://img.shields.io/badge/licence-MIT-green">
-</a>  
 
 Protein complex structure determination by structure prediction with cryo-EM density map constraints.  
-
-## CryoFold Architecture
 
 <p align="center">
   <img src="misc/framework.png" alt="CryoFold framework" width="70%">
